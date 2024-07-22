@@ -4,6 +4,19 @@ body {
 	padding: 0;
 }
 
+footer a:link {
+	color: white;
+}
+
+footer a:visited {
+	color: rgb(231, 231, 231);
+}
+
+footer ul {
+	list-style: none;
+	padding: opx;
+}
+
 .alert {
 	background-color: black;
 	color: white;
