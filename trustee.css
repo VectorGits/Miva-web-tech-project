@@ -4,6 +4,11 @@ main {
 	max-width: 1024px;
 }
 
+main > h1 {
+	text-align: center;
+	margin: 20px;
+}
+
 .hero1 {
 	display: flex;
 	justify-content: space-around;
