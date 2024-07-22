@@ -1,3 +1,8 @@
+main > h1 {
+	text-align: center;
+	margin: 20px;
+}
+
 .product-container {
     display: flex;
     flex-wrap: wrap;
