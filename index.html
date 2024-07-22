@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet" href="styles.css">
+	<!-- <script src="script.js"></script> -->
+</head>
+<body>
+	<header>
+		<div class="alert">
+			<p>Discount offer ending  <b>May 24th, 2025</b> </p>
+		</div>
+		<nav class="navbar">
+			<div class="menu-icon" id="menu-icon">
+			  <img src="./public/menu-icon.png" alt="Menu Icon">
+			</div>
+			<div class="logo">
+			  <span>TULOS</span>
+			</div>
+			<div class="icons">
+			  <img src="./public/search-icon.png" alt="Search Icon">
+			  <img src="./public/Cart-icon.png" alt="Cart Icon">
+			</div>
+		  </nav>
+		  <div class="nav-links" id="nav-links">
+			<a href="./index.html">Home</a>
+			<a href="./shop.html">Shop</a>
+			<a href="./about.html">About</a>
+			<a href="./trustee.html">Trustees</a>
+			<a href="#">Sale</a>
+		  </div>
+	</header>
+	  <div class="hero-section">
+		<img src="./public/landscape-banner-first.jpg" alt="Hero" class="hero-image">
+		<div class="hero-content">
+		  <h1>TULOS SPRING COLLECTION</h1>
+		  <div>
+			  <p>Find your own exclusive fashion. Offering the latest trends in the TOLUS Spring Collection.</p>
+			  <button>Buy Now</button>
+		  </div>
+		</div>
+	  </div>
+
+	  <!-- NEW COLLECTION SECTION -->
+
+	  <div class="new-collection">
+		<h2>NEW COLLECTION</h2>
+		<div class="slider">
+		  <div class="slider-container" id="slider-container">
+			<div class="slide">
+			  <img src="./public/loro_piana-shirt.jpeg" alt="Loro Piana">
+			  <h3>Loro Piana</h3>
+			  <p>Polo shirts with a classic look.</p>
+			  <span>$45</span>
+			</div>
+			<div class="slide">
+			  <img src="./public/white_pants.jpeg" alt="White Pants">
+			  <h3>White Pants</h3>
+			  <p>Elegant white pants.</p>
+			  <span>$90</span>
+			</div>
+			<div class="slide">
+			  <img src="./public/bikha_glasses.jpeg" alt="Bikha Glasses">
+			  <h3>Bikha Glasses</h3>
+			  <p>Stylish glasses with black frames.</p>
+			  <span>$50</span>
+			</div>
+			<div class="slide">
+				<img src="./public/brown_bomber-jacket.jpeg" alt="Brown Bomber">
+				<h3>Brown Bomber</h3>
+				<p>Warm and stylish brown bomber jacket.</p>
+				<span>$52</span>
+			</div>
+			<div class="slide">
+				<img src="./public/leather_shoes.jpeg" alt="Leather Shoes Jack">
+				<h3>Leather Shoes Jack</h3>
+				<p>Comfortable and stylish leather shoes.</p>
+				<span>$50</span>
+			</div>
+			<div class="slide">
+				<img src="./public/grey_tshirt.jpeg" alt="Grey T-shirt">
+				<h3>Grey T-shirt</h3>
+				<p>Casual grey T-shirt.</p>
+				<span>$50</span>
+			</div>
+		  </div>
+		  <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+		  <button class="next" onclick="moveSlide(1)">&#10095;</button>
+		</div>
+		<div class="dots" id="dots">
+		  <span class="dot" onclick="currentSlide(1)"></span>
+		  <span class="dot" onclick="currentSlide(2)"></span>
+		  <span class="dot" onclick="currentSlide(3)"></span>
+		  <span class="dot" onclick="currentSlide(4)"></span>
+		  <span class="dot" onclick="currentSlide(5)"></span>
+		  <span class="dot" onclick="currentSlide(6)"></span>
+		</div>
+	  </div>
+
+
+
+	  <!-- FOOTER SECTION -->
+	  <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Discover the latest trends in the TULOS Spring Collection.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><img src="path-to-facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="path-to-instagram-icon.png" alt="Instagram"></a>
+                    <a href="#"><img src="path-to-twitter-icon.png" alt="Twitter"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+	  <!-- JavaScript -->
+	  <script src="script.js"></script>
+</body>
+</html>
