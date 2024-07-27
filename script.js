@@ -43,3 +43,16 @@ function showSlides(n) {
 document.addEventListener("DOMContentLoaded", function() {
   showSlides(slideIndex);
 });
+
+
+// Accordion
+
+function toggleAccordion(element) {
+  const content = element.nextElementSibling;
+  element.classList.toggle('active');
+  if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+  } else {
+      content.style.maxHeight = content.scrollHeight + 'px';
+  }
+}

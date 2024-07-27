@@ -71,4 +71,8 @@ main > h1 {
     .product-card {
         flex: 1 1 calc(100% - 40px);
     }
+
+    .product-container {
+        max-width: 300px;
+    }
 }

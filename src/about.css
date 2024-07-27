@@ -70,6 +70,56 @@ body {
     text-align: left;
 }
 
+/* acorrdion */
+.accordion {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-header {
+    padding: 15px 20px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.accordion-header:hover {
+    background-color: #555;
+}
+
+.accordion-header h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #f9f9f9;
+    padding: 0 20px;
+}
+
+.accordion-content p {
+    margin: 15px 0;
+    padding: 0;
+}
+
+.accordion-header.active {
+    background-color: #555;
+}
+
+
 @media (max-width: 768px) {
     .about-content {
         flex-direction: column;
